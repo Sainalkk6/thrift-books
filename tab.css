@@ -1,0 +1,142 @@
+@media only screen and (max-width: 798px) {
+  .cards--category {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .content-love {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .image-container-00 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .for-the-love-of-reading {
+    width: 100%;
+    min-width: 990px;
+  }
+  .divider-1 {
+    height: 1px;
+    width: 100%;
+    min-width: 990px;
+    margin: 1rem 0;
+    background-color: #d7d7d7;
+  }
+
+  .for-the-love-of-reading {
+    padding: 0 16px 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 990px;
+  }
+
+  .content-right {
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .left-arrow-11 {
+    display: none;
+  }
+
+  .quality-contents {
+    display: none;
+  }
+
+  .below-divider-content {
+    align-items: center;
+    justify-content: center;
+  }
+  .content-right {
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 1212px) {
+  .footer-content {
+    padding: 32px 16px;
+  }
+}
+
+@media only screen and (max-width: 793px) {
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-socials {
+    padding-top: 40px;
+    border-left: 0;
+    padding-left: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.25);
+    width: auto;
+  }
+
+  .footer-content-top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-social-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-icons {
+    margin: 8px 0 16px 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .social-icons img {
+    height: 3rem;
+    margin-top: 30px;
+    padding: 0.75rem;
+    margin: 0.75rem;
+    gap: 0;
+  }
+
+  .footer-end-section {
+    /* margin-top: -130px; */
+    width: 100%;
+  }
+
+  .footer-credits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .terms-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  .category-column-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .footer-credits {
+    display: flex;
+    flex-direction: column;
+  }
+}
